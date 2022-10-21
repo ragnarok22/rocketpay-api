@@ -1,4 +1,4 @@
-# swagger-client
+# RocketPay Client
 This API based on [@tonRocketBot](https://t.me/tonRocketBot) ([@ton_rocket_test_bot](https://t.me/ton_rocket_test_bot) for testnest) Payment System. In order to use it, you need to get API key from bot. Open it and go to Rocket Pay > Create App > API token.
 
 API token must be specified in header of each request. Header name is **Rocket-Pay-Key**. Only exception is /version endpoint
