@@ -35,5 +35,17 @@ setup(
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
-    long_description=LONG_DESCRIPTION
+    long_description=LONG_DESCRIPTION,
+    long_description_content_type="text/markdown",
+    license="MIT license",
+    classifiers=[
+        'Development Status :: 2 - Pre-Alpha',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Natural Language :: English',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+    ],
 )
