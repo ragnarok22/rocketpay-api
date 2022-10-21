@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.available_coins_data import AvailableCoinsData  # noqa: E501
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.models.available_coins_data import AvailableCoinsData  # noqa: E501
+from rocketpay.rest import ApiException
 
 
 class TestAvailableCoinsData(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestAvailableCoinsData(unittest.TestCase):
     def testAvailableCoinsData(self):
         """Test AvailableCoinsData"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.available_coins_data.AvailableCoinsData()  # noqa: E501
+        # model = rocketpay.models.available_coins_data.AvailableCoinsData()  # noqa: E501
         pass
 
 

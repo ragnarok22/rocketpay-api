@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.webhook_dto import WebhookDto  # noqa: E501
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.models.webhook_dto import WebhookDto  # noqa: E501
+from rocketpay.rest import ApiException
 
 
 class TestWebhookDto(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestWebhookDto(unittest.TestCase):
     def testWebhookDto(self):
         """Test WebhookDto"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.webhook_dto.WebhookDto()  # noqa: E501
+        # model = rocketpay.models.webhook_dto.WebhookDto()  # noqa: E501
         pass
 
 

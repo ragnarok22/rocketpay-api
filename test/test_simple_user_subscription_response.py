@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.simple_user_subscription_response import SimpleUserSubscriptionResponse  # noqa: E501
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.models.simple_user_subscription_response import SimpleUserSubscriptionResponse  # noqa: E501
+from rocketpay.rest import ApiException
 
 
 class TestSimpleUserSubscriptionResponse(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestSimpleUserSubscriptionResponse(unittest.TestCase):
     def testSimpleUserSubscriptionResponse(self):
         """Test SimpleUserSubscriptionResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.simple_user_subscription_response.SimpleUserSubscriptionResponse()  # noqa: E501
+        # model = rocketpay.models.simple_user_subscription_response.SimpleUserSubscriptionResponse()  # noqa: E501
         pass
 
 

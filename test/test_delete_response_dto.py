@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.delete_response_dto import DeleteResponseDto  # noqa: E501
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.models.delete_response_dto import DeleteResponseDto  # noqa: E501
+from rocketpay.rest import ApiException
 
 
 class TestDeleteResponseDto(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestDeleteResponseDto(unittest.TestCase):
     def testDeleteResponseDto(self):
         """Test DeleteResponseDto"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.delete_response_dto.DeleteResponseDto()  # noqa: E501
+        # model = rocketpay.models.delete_response_dto.DeleteResponseDto()  # noqa: E501
         pass
 
 

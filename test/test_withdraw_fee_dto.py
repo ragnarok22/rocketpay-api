@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.withdraw_fee_dto import WithdrawFeeDto  # noqa: E501
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.models.withdraw_fee_dto import WithdrawFeeDto  # noqa: E501
+from rocketpay.rest import ApiException
 
 
 class TestWithdrawFeeDto(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestWithdrawFeeDto(unittest.TestCase):
     def testWithdrawFeeDto(self):
         """Test WithdrawFeeDto"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.withdraw_fee_dto.WithdrawFeeDto()  # noqa: E501
+        # model = rocketpay.models.withdraw_fee_dto.WithdrawFeeDto()  # noqa: E501
         pass
 
 

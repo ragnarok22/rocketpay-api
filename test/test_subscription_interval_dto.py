@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.subscription_interval_dto import SubscriptionIntervalDto  # noqa: E501
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.models.subscription_interval_dto import SubscriptionIntervalDto  # noqa: E501
+from rocketpay.rest import ApiException
 
 
 class TestSubscriptionIntervalDto(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestSubscriptionIntervalDto(unittest.TestCase):
     def testSubscriptionIntervalDto(self):
         """Test SubscriptionIntervalDto"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.subscription_interval_dto.SubscriptionIntervalDto()  # noqa: E501
+        # model = rocketpay.models.subscription_interval_dto.SubscriptionIntervalDto()  # noqa: E501
         pass
 
 

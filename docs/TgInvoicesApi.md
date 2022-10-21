@@ -15,22 +15,23 @@ Method | HTTP request | Description
 Create invoice
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api-key
-configuration = swagger_client.Configuration()
+configuration = rocketpay.Configuration()
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TgInvoicesApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateInvoiceDto() # CreateInvoiceDto | 
+api_instance = rocketpay.TgInvoicesApi(rocketpay.ApiClient(configuration))
+body = rocketpay.CreateInvoiceDto() # CreateInvoiceDto | 
 
 try:
     # Create invoice
@@ -67,21 +68,22 @@ Name | Type | Description  | Notes
 Delete invoice
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api-key
-configuration = swagger_client.Configuration()
+configuration = rocketpay.Configuration()
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TgInvoicesApi(swagger_client.ApiClient(configuration))
+api_instance = rocketpay.TgInvoicesApi(rocketpay.ApiClient(configuration))
 id = 'id_example' # str | 
 
 try:
@@ -119,21 +121,22 @@ Name | Type | Description  | Notes
 Get invoice info
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api-key
-configuration = swagger_client.Configuration()
+configuration = rocketpay.Configuration()
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TgInvoicesApi(swagger_client.ApiClient(configuration))
+api_instance = rocketpay.TgInvoicesApi(rocketpay.ApiClient(configuration))
 id = 'id_example' # str | 
 
 try:
@@ -171,21 +174,22 @@ Name | Type | Description  | Notes
 Get list of invoices
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api-key
-configuration = swagger_client.Configuration()
+configuration = rocketpay.Configuration()
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.TgInvoicesApi(swagger_client.ApiClient(configuration))
+api_instance = rocketpay.TgInvoicesApi(rocketpay.ApiClient(configuration))
 limit = 100 # float |  (optional) (default to 100)
 offset = 0 # float |  (optional) (default to 0)
 

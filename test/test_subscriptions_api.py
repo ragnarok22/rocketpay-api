@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.subscriptions_api import SubscriptionsApi  # noqa: E501
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.api.subscriptions_api import SubscriptionsApi  # noqa: E501
+from rocketpay.rest import ApiException
 
 
 class TestSubscriptionsApi(unittest.TestCase):

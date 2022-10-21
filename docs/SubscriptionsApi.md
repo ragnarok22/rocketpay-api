@@ -20,22 +20,23 @@ Method | HTTP request | Description
 
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api-key
-configuration = swagger_client.Configuration()
+configuration = rocketpay.Configuration()
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SubscriptionsApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CheckSubscriptionDto() # CheckSubscriptionDto | 
+api_instance = rocketpay.SubscriptionsApi(rocketpay.ApiClient(configuration))
+body = rocketpay.CheckSubscriptionDto() # CheckSubscriptionDto | 
 subscription_id = 'subscription_id_example' # str | 
 
 try:
@@ -73,22 +74,23 @@ Name | Type | Description  | Notes
 Create subscription
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api-key
-configuration = swagger_client.Configuration()
+configuration = rocketpay.Configuration()
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SubscriptionsApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateSubscriptionDto() # CreateSubscriptionDto | 
+api_instance = rocketpay.SubscriptionsApi(rocketpay.ApiClient(configuration))
+body = rocketpay.CreateSubscriptionDto() # CreateSubscriptionDto | 
 
 try:
     # Create subscription
@@ -125,22 +127,23 @@ Name | Type | Description  | Notes
 Create subscription interval
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api-key
-configuration = swagger_client.Configuration()
+configuration = rocketpay.Configuration()
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SubscriptionsApi(swagger_client.ApiClient(configuration))
-body = swagger_client.SubscriptionIntervalDto() # SubscriptionIntervalDto | 
+api_instance = rocketpay.SubscriptionsApi(rocketpay.ApiClient(configuration))
+body = rocketpay.SubscriptionIntervalDto() # SubscriptionIntervalDto | 
 subscription_id = 'subscription_id_example' # str | 
 
 try:
@@ -179,21 +182,22 @@ Name | Type | Description  | Notes
 Delete subscription
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api-key
-configuration = swagger_client.Configuration()
+configuration = rocketpay.Configuration()
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SubscriptionsApi(swagger_client.ApiClient(configuration))
+api_instance = rocketpay.SubscriptionsApi(rocketpay.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | 
 
 try:
@@ -231,21 +235,22 @@ Name | Type | Description  | Notes
 Delete subscription interval
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api-key
-configuration = swagger_client.Configuration()
+configuration = rocketpay.Configuration()
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SubscriptionsApi(swagger_client.ApiClient(configuration))
+api_instance = rocketpay.SubscriptionsApi(rocketpay.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | 
 interval_code = 'interval_code_example' # str | 
 
@@ -285,22 +290,23 @@ Name | Type | Description  | Notes
 Edit subscription interval
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api-key
-configuration = swagger_client.Configuration()
+configuration = rocketpay.Configuration()
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SubscriptionsApi(swagger_client.ApiClient(configuration))
-body = swagger_client.EditSubscriptionIntervalDto() # EditSubscriptionIntervalDto | 
+api_instance = rocketpay.SubscriptionsApi(rocketpay.ApiClient(configuration))
+body = rocketpay.EditSubscriptionIntervalDto() # EditSubscriptionIntervalDto | 
 subscription_id = 'subscription_id_example' # str | 
 interval_code = 'interval_code_example' # str | 
 
@@ -341,21 +347,22 @@ Name | Type | Description  | Notes
 Get subscription info
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api-key
-configuration = swagger_client.Configuration()
+configuration = rocketpay.Configuration()
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SubscriptionsApi(swagger_client.ApiClient(configuration))
+api_instance = rocketpay.SubscriptionsApi(rocketpay.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | 
 
 try:
@@ -393,21 +400,22 @@ Name | Type | Description  | Notes
 Get subscription interval info
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api-key
-configuration = swagger_client.Configuration()
+configuration = rocketpay.Configuration()
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SubscriptionsApi(swagger_client.ApiClient(configuration))
+api_instance = rocketpay.SubscriptionsApi(rocketpay.ApiClient(configuration))
 subscription_id = 'subscription_id_example' # str | 
 interval_code = 'interval_code_example' # str | 
 
@@ -447,21 +455,22 @@ Name | Type | Description  | Notes
 Get list of subscription
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api-key
-configuration = swagger_client.Configuration()
+configuration = rocketpay.Configuration()
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SubscriptionsApi(swagger_client.ApiClient(configuration))
+api_instance = rocketpay.SubscriptionsApi(rocketpay.ApiClient(configuration))
 limit = 100 # float |  (optional) (default to 100)
 offset = 0 # float |  (optional) (default to 0)
 

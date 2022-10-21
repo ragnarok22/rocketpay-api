@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.multi_cheques_api import MultiChequesApi  # noqa: E501
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.api.multi_cheques_api import MultiChequesApi  # noqa: E501
+from rocketpay.rest import ApiException
 
 
 class TestMultiChequesApi(unittest.TestCase):

@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.create_transfer_dto import CreateTransferDto  # noqa: E501
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.models.create_transfer_dto import CreateTransferDto  # noqa: E501
+from rocketpay.rest import ApiException
 
 
 class TestCreateTransferDto(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestCreateTransferDto(unittest.TestCase):
     def testCreateTransferDto(self):
         """Test CreateTransferDto"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.create_transfer_dto.CreateTransferDto()  # noqa: E501
+        # model = rocketpay.models.create_transfer_dto.CreateTransferDto()  # noqa: E501
         pass
 
 

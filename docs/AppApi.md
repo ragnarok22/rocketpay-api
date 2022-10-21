@@ -14,21 +14,22 @@ Method | HTTP request | Description
 Returns information about your application
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api-key
-configuration = swagger_client.Configuration()
+configuration = rocketpay.Configuration()
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AppApi(swagger_client.ApiClient(configuration))
+api_instance = rocketpay.AppApi(rocketpay.ApiClient(configuration))
 
 try:
     # Returns information about your application
@@ -62,22 +63,23 @@ This endpoint does not need any parameter.
 Make transfer of funds to another user
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api-key
-configuration = swagger_client.Configuration()
+configuration = rocketpay.Configuration()
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AppApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateTransferDto() # CreateTransferDto | 
+api_instance = rocketpay.AppApi(rocketpay.ApiClient(configuration))
+body = rocketpay.CreateTransferDto() # CreateTransferDto | 
 
 try:
     # Make transfer of funds to another user
@@ -114,22 +116,23 @@ Name | Type | Description  | Notes
 Make withdrawal of funds to external wallet
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api-key
-configuration = swagger_client.Configuration()
+configuration = rocketpay.Configuration()
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.AppApi(swagger_client.ApiClient(configuration))
-body = swagger_client.CreateWithdrawalDto() # CreateWithdrawalDto | 
+api_instance = rocketpay.AppApi(rocketpay.ApiClient(configuration))
+body = rocketpay.CreateWithdrawalDto() # CreateWithdrawalDto | 
 
 try:
     # Make withdrawal of funds to external wallet

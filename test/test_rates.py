@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.rates import Rates  # noqa: E501
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.models.rates import Rates  # noqa: E501
+from rocketpay.rest import ApiException
 
 
 class TestRates(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestRates(unittest.TestCase):
     def testRates(self):
         """Test Rates"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.rates.Rates()  # noqa: E501
+        # model = rocketpay.models.rates.Rates()  # noqa: E501
         pass
 
 

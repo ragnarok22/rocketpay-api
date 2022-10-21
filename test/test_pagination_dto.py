@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.pagination_dto import PaginationDto  # noqa: E501
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.models.pagination_dto import PaginationDto  # noqa: E501
+from rocketpay.rest import ApiException
 
 
 class TestPaginationDto(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestPaginationDto(unittest.TestCase):
     def testPaginationDto(self):
         """Test PaginationDto"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.pagination_dto.PaginationDto()  # noqa: E501
+        # model = rocketpay.models.pagination_dto.PaginationDto()  # noqa: E501
         pass
 
 

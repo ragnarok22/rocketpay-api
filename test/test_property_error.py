@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.property_error import PropertyError  # noqa: E501
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.models.property_error import PropertyError  # noqa: E501
+from rocketpay.rest import ApiException
 
 
 class TestPropertyError(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestPropertyError(unittest.TestCase):
     def testPropertyError(self):
         """Test PropertyError"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.property_error.PropertyError()  # noqa: E501
+        # model = rocketpay.models.property_error.PropertyError()  # noqa: E501
         pass
 
 

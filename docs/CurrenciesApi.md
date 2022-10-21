@@ -13,15 +13,16 @@ Method | HTTP request | Description
 Returns available currencies
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.CurrenciesApi()
+api_instance = rocketpay.CurrenciesApi()
 
 try:
     # Returns available currencies
@@ -55,15 +56,16 @@ No authorization required
 Returns rates from simple simple-order
 
 ### Example
+
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.CurrenciesApi()
+api_instance = rocketpay.CurrenciesApi()
 coin_from = 1.2 # float | ID of coin from
 coin_to = 1.2 # float | ID of coin to
 

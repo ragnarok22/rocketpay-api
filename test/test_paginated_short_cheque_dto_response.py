@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.paginated_short_cheque_dto_response import PaginatedShortChequeDtoResponse  # noqa: E501
-from swagger_client.rest import ApiException
+import rocketpay
+from rocketpay.models.paginated_short_cheque_dto_response import PaginatedShortChequeDtoResponse  # noqa: E501
+from rocketpay.rest import ApiException
 
 
 class TestPaginatedShortChequeDtoResponse(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestPaginatedShortChequeDtoResponse(unittest.TestCase):
     def testPaginatedShortChequeDtoResponse(self):
         """Test PaginatedShortChequeDtoResponse"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.paginated_short_cheque_dto_response.PaginatedShortChequeDtoResponse()  # noqa: E501
+        # model = rocketpay.models.paginated_short_cheque_dto_response.PaginatedShortChequeDtoResponse()  # noqa: E501
         pass
 
 
