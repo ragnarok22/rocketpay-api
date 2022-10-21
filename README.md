@@ -53,6 +53,8 @@ from pprint import pprint
 
 # Configure API key authorization: api-key
 configuration = swagger_client.Configuration()
+# Uncomment below to setup testnet
+# configuration.is_testnet = True
 configuration.api_key['Rocket-Pay-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Rocket-Pay-Key'] = 'Bearer'
@@ -206,5 +208,5 @@ Class | Method | HTTP request | Description
 
 
 ## Author
-
-
+* Aleksandr Shepelev
+* [Reinier Hernández](https://ragnarok22.dev)
