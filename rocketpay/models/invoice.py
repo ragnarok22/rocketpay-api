@@ -284,8 +284,8 @@ class Invoice(object):
         :param created: The created of this Invoice.  # noqa: E501
         :type: datetime
         """
-        if created is None:
-            raise ValueError("Invalid value for `created`, must not be `None`")  # noqa: E501
+        # if created is None:
+        #     raise ValueError("Invalid value for `created`, must not be `None`")  # noqa: E501
 
         self._created = created
 
